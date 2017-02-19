@@ -26,7 +26,7 @@ void imprima(const TIPO valor) {
 }
 
 // sobre escribe la funcion imprima y resive como parametro un  argumento
-// constante tipo puntero deportes (realmente es la direccion de memoria)
+// constante tipo referencia deportes ( es la direccion de memoria)
 void imprima(const deportes &valor) {
     imprima("esta es la informacion del su deporte:");
     imprima("nombre:");

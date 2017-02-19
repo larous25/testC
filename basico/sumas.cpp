@@ -27,8 +27,6 @@ int main(void) {
 
 	// ..................................................
 
-	// matriz de dos dimenciones
- 	int matriz[2][3] = {{1,2,3},{3,4,4}};
 
 
 	// ..................................................
@@ -46,7 +44,10 @@ int main(void) {
  		cout << elemento << '\t';
  		cout << &elemento << '\n';
  	}
-}
+	
+	// matriz de dos dimenciones
+ 	int matriz[2][3] = {{1,2,3},{3,4,4}};
+};
 
 
 /**
